@@ -1,17 +1,45 @@
-header {
-  width: 500px;
-  border-style: dotted; 
+header, footer {
+  background-color: #b9919c73;
+  border-style: double; 
+  border-width: thick;
   border-color: #076614 #075966 #140766 #440766;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #c70039;
   text-align: center;
+  font-weight: bolder;
 }
 h1 {
   color: #072a66;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   font-weight: bold;
+  font-size: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-style: dotted;
+  border-width: thick;
+  border-color: #072a66;
+  background-color: rgb(248, 248, 248);
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-top: 5px;
 }
-
+h2 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  
+}
 body {
-  max-width: 900px;
+  background-color: #e6fbff;
+}
+section {
+  border-style: solid;
+  border-width: thin;
+  border-color: #440766;
+  margin: 20px;
+  padding: 5px;
+  font-size: 20px;
 }

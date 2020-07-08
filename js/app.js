@@ -23,8 +23,10 @@ if (likeAnimalsAnswer === 'y'){
   alert('Poppycock! You do not know Krystian very well at all, do you ' + usernameAnswer + '?');
 }
 
-var shortyAnswer = prompt('Is Krystian what you humans think of as "tall"?');
+var shortyAnswer = prompt('Is Krystian what you humans think of as "tall" (y/n)?');
 // console.log('shortyAnswer : ' + shortyAnswer);
+
+// shortyAnswer.toLowerCase(); -- Not quite there yet with this, need to get all answers reading lowercase 
 
 if (shortyAnswer === 'y'){
   alert('You sure blew that one.');
@@ -43,7 +45,7 @@ if (foodieAnswer === 'y'){
   alert('Do you enjoy making me angry human? Everyone loves food that was a giveaway.');
 }
 
-var introvertAnswer = prompt('Last question ' + usernameAnswer + '. Anyone who knows Krystian will know this one. Is Krystian an introvert?');
+var introvertAnswer = prompt('Last question ' + usernameAnswer + '. Anyone who knows Krystian will know this one. Is Krystian an introvert (y/n)?');
 // console.log('introvertAnswer : ' + introvertAnswer);
 
 if (introvertAnswer === 'y'){
