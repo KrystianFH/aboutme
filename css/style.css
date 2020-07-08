@@ -1,4 +1,4 @@
-header, footer {
+header {
   background-color: #02035350;
   border-style: double; 
   border-width: thick;
@@ -22,7 +22,7 @@ h1 {
   background-color: rgba(248, 248, 248, 0.322);
   margin: auto;
   margin-top: 10px;
-  width: 200px;
+  width: 1000px;
   border-style: outset;
   
 }
@@ -36,7 +36,7 @@ h2 {
 
 body {
   background-image: url("/img/geometricclouds.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
   
 }
@@ -53,5 +53,33 @@ section {
 
 ul {
   list-style-type: circle;
+  list-style-position: inside;
   text-align: center;
+  border-width: 3px;
+  border-style: double;
+}
+
+#intro {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-variant: small-caps;
+  font-weight: 500;
+}
+
+main {
+  background-color: rgba(146, 146, 146, 0.322);
+}
+
+footer {
+  background-color: #02035350;
+  border-style: double; 
+  border-width: thick;
+  border-color: #076614 #075966 #140766 #440766;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #f7f8f8;
+  text-align: center;
+  font-weight: bolder;
+  position: sticky;
+  margin-bottom: 0px;
 }
