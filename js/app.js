@@ -8,7 +8,7 @@ alert('Really?!?! How odd. Well I suppose I will call you ' + usernameAnswer + '
 var ageGuessAnswer = prompt('Is Krystian OLDER than 28 years of age (y/n)?');
 // console.log('ageGuessAnswer : ' + ageGuessAnswer);
 
-if (ageGuessAnswer === 'y'){
+if (ageGuessAnswer.toLowerCase() === 'y'){
   alert('Ding Dong! You got it right!');
 } else {
   alert('Flattery will get you nowhere ' + usernameAnswer + '. WRONG!');
@@ -17,7 +17,7 @@ if (ageGuessAnswer === 'y'){
 var likeAnimalsAnswer = prompt('Does Krystian love animals (y/n)?');
 // console.log('likeAnimalsAnswer : ' + likeAnimalsAnswer);
 
-if (likeAnimalsAnswer === 'y'){
+if (likeAnimalsAnswer.toLowerCase() === 'y'){
   alert('You are one smart cookie, as your kind often says. Such an odd phrase.');
 } else {
   alert('Poppycock! You do not know Krystian very well at all, do you ' + usernameAnswer + '?');
@@ -26,11 +26,10 @@ if (likeAnimalsAnswer === 'y'){
 var shortyAnswer = prompt('Is Krystian what you humans think of as "tall" (y/n)?');
 // console.log('shortyAnswer : ' + shortyAnswer);
 
-// shortyAnswer.toLowerCase(); -- Not quite there yet with this, need to get all answers reading lowercase 
 
-if (shortyAnswer === 'y'){
+if (shortyAnswer.toLowerCase() === 'y'){
   alert('You sure blew that one.');
-} else if(shortyAnswer === 'n'){
+} else if(shortyAnswer.toLowerCase() === 'n'){
   alert('She will never admit it, but does she really have to?');
 } else {
   alert('I shake my fist at you! That was never an option human.');
@@ -39,7 +38,7 @@ if (shortyAnswer === 'y'){
 var foodieAnswer = prompt('Is Krystian a foodie (y/n)?');
 // console.log('foodieAnswer : ' + foodieAnswer);
 
-if (foodieAnswer === 'y'){
+if (foodieAnswer.toLowerCase() === 'y'){
   alert('Maybe you truly do know Krystian.');
 } else {
   alert('Do you enjoy making me angry human? Everyone loves food that was a giveaway.');
@@ -48,7 +47,7 @@ if (foodieAnswer === 'y'){
 var introvertAnswer = prompt('Last question ' + usernameAnswer + '. Anyone who knows Krystian will know this one. Is Krystian an introvert (y/n)?');
 // console.log('introvertAnswer : ' + introvertAnswer);
 
-if (introvertAnswer === 'y'){
+if (introvertAnswer.toLowerCase() === 'y'){
   alert('You have proven yourself ' + usernameAnswer + '. Proceed to learn more.');
 } else {
   alert('You might need to get to know Krystian a little better ' + usernameAnswer + '. Luckily for you she guessed you might need some help. Go on to her site and learn a thing or two.');
