@@ -43,6 +43,46 @@ if (foodieAnswer.toLowerCase() === 'y'){
 } else {
   alert('Do you enjoy making me angry human? Everyone loves food that was a giveaway.');
 }
+// Question 6
+var howManyPetsAnswer = prompt('How many pets does Krystian live with?');
+// console.log('howManyPetsAnswer : ' +howManyPetsAnswer);
+
+if (howManyPetsAnswer > 3){
+  alert('You are aiming a bit too high my friend.');
+} else if(howManyPetsAnswer < 3){
+  alert('Add some more pets to the mix, you are coming up short my friend.');
+} else if(howManyPetsAnswer === 3){
+  alert('Have you met the wildlings or are you just great at guessing? Three was the right choice!');
+} else {
+  alert('All it took was a simple guess pal. Try again.');
+}
+
+ 
+// Question 7
+var animalTypeArray = ['dog', 'cat', 'horse', 'bird', 'fish'];
+animalTypeArray[0] === 'dog';
+animalTypeArray[0];
+
+animalTypeArray[1] === 'cat';
+animalTypeArray[1];
+
+animalTypeArray[2] === 'horse';
+animalTypeArray[2];
+
+animalTypeArray[3] === 'bird';
+animalTypeArray[3];
+
+animalTypeArray[4] === 'fish';
+animalTypeArray[4];
+
+var likedAnimals = prompt('What type of animals does Krystian like?');
+
+if (likedAnimals === animalTypeArray[0] || likedAnimals === animalTypeArray[1] || likedAnimals === animalTypeArray[2]){
+  //  console.log('Correctamundo');
+  alert('You are absolutely correct!');
+}
+
+
 
 var introvertAnswer = prompt('Last question ' + usernameAnswer + '. Anyone who knows Krystian will know this one. Is Krystian an introvert (y/n)?');
 // console.log('introvertAnswer : ' + introvertAnswer);
