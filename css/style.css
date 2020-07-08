@@ -1,0 +1,17 @@
+header {
+  width: 500px;
+  border-style: dotted; 
+  border-color: #076614 #075966 #140766 #440766;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+h1 {
+  color: #072a66;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+body {
+  max-width: 900px;
+}
