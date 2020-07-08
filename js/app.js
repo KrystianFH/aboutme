@@ -1,6 +1,6 @@
 'use strict';
 
-var usernameAnswer = prompt('Why Hello Human, what are you called?');
+var usernameAnswer = prompt('Why hello Human, what are you called?');
 // console.log('usernameAnswer : ' + usernameAnswer);
 
 alert('Really?!?! How odd. Well I suppose I will call you ' + usernameAnswer + ' too.');
@@ -18,12 +18,12 @@ var likeAnimalsAnswer = prompt('Does Krystian love animals (y/n)?');
 // console.log('likeAnimalsAnswer : ' + likeAnimalsAnswer);
 
 if (likeAnimalsAnswer === 'y'){
-  alert('You are one smart cookie, as your kind says. Such an odd phrase.');
+  alert('You are one smart cookie, as your kind often says. Such an odd phrase.');
 } else {
   alert('Poppycock! You do not know Krystian very well at all, do you ' + usernameAnswer + '?');
 }
 
-var shortyAnswer = prompt('Is Krystian what you humans think of as tall?');
+var shortyAnswer = prompt('Is Krystian what you humans think of as "tall"?');
 // console.log('shortyAnswer : ' + shortyAnswer);
 
 if (shortyAnswer === 'y'){
