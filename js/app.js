@@ -138,12 +138,19 @@ animalTypeLoop();
 
 //Q7 Ends
 
+// Q8
 
-var introvertAnswer = prompt('Last question ' + usernameAnswer + '. Anyone who knows Krystian will know this one. Is Krystian an introvert (y/n)?');
-// console.log('introvertAnswer : ' + introvertAnswer);
+function introvertQuestion(){
 
-if (introvertAnswer.toLowerCase() === 'y'){
-  alert('You have proven yourself ' + usernameAnswer + '. Proceed to learn more.');
-} else {
-  alert('You might need to get to know Krystian a little better ' + usernameAnswer + '. Luckily for you she guessed you might need some help. Go on to her site and learn a thing or two.');
+  var introvertAnswer = prompt('Last question ' + usernameAnswer + '. Anyone who knows Krystian will know this one. Is Krystian an introvert (y/n)?');
+  // console.log('introvertAnswer : ' + introvertAnswer);
+
+  if (introvertAnswer.toLowerCase() === 'y'){
+    alert('You have proven yourself ' + usernameAnswer + '. Proceed to learn more.');
+  } else {
+    alert('You might need to get to know Krystian a little better ' + usernameAnswer + '. Luckily for you she guessed you might need some help. Go on to her site and learn a thing or two.');
+  }
 }
+introvertQuestion();
+
+//Q8 Ends
