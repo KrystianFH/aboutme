@@ -1,9 +1,24 @@
 'use strict';
 
-var usernameAnswer = prompt('Why hello Human, what are you called?');
+// Plan: function declaration, 
+// copy each question into the function between the curly brackets
+// invoke the function
+// repeat for all remaining questions
+
+// Q1 opening wrap  
+
+function nameQuestion(){
+  var usernameAnswer = prompt('Why hello Human, what are you called?');
+  // console.log('usernameAnswer : ' + usernameAnswer);
+  
+  alert('Really?!?! How odd. Well I suppose I will call you ' + usernameAnswer + ' too.');
+}
+nameQuestion();
+
+//var usernameAnswer = prompt('Why hello Human, what are you called?');
 // console.log('usernameAnswer : ' + usernameAnswer);
 
-alert('Really?!?! How odd. Well I suppose I will call you ' + usernameAnswer + ' too.');
+//alert('Really?!?! How odd. Well I suppose I will call you ' + usernameAnswer + ' too.');
 
 var ageGuessAnswer = prompt('Is Krystian OLDER than 28 years of age (y/n)?');
 // console.log('ageGuessAnswer : ' + ageGuessAnswer);
@@ -13,6 +28,7 @@ if (ageGuessAnswer.toLowerCase() === 'y'){
 } else {
   alert('Flattery will get you nowhere ' + usernameAnswer + '. WRONG!');
 }
+
 
 var likeAnimalsAnswer = prompt('Does Krystian love animals (y/n)?');
 // console.log('likeAnimalsAnswer : ' + likeAnimalsAnswer);
