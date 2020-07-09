@@ -32,15 +32,20 @@ ageGuessQuestion();
 
 // Q3
 
+function loveAnimalsQuestion(){
+  var likeAnimalsAnswer = prompt('Does Krystian love animals (y/n)?');
+  // console.log('likeAnimalsAnswer : ' + likeAnimalsAnswer);
 
-var likeAnimalsAnswer = prompt('Does Krystian love animals (y/n)?');
-// console.log('likeAnimalsAnswer : ' + likeAnimalsAnswer);
-
-if (likeAnimalsAnswer.toLowerCase() === 'y'){
-  alert('You are one smart cookie, as your kind often says. Such an odd phrase.');
-} else {
-  alert('Poppycock! You do not know Krystian very well at all, do you ' + usernameAnswer + '?');
+  if (likeAnimalsAnswer.toLowerCase() === 'y'){
+    alert('You are one smart cookie, as your kind often says. Such an odd phrase.');
+  } else {
+    alert('Poppycock! You do not know Krystian very well at all, do you ' + usernameAnswer + '?');
+  }
 }
+loveAnimalsQuestion();
+
+//Q3 End
+
 
 var shortyAnswer = prompt('Is Krystian what you humans think of as "tall" (y/n)?');
 // console.log('shortyAnswer : ' + shortyAnswer);
