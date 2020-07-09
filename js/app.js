@@ -64,29 +64,23 @@ for(var i=0; i<=3; i++){
 
  
 // Question 7
-var animalTypeArray = ['dog', 'cat', 'horse', 'bird', 'fish'];
-animalTypeArray[0] === 'dog';
-animalTypeArray[0];
+// Q. 7 Loop start
+for (var i=0; i<6; i++){
+// Q. 7 Start
+  var animalTypeArray = ['dog', 'cat', 'horse', 'bird', 'fish'];
 
-animalTypeArray[1] === 'cat';
-animalTypeArray[1];
+  var likedAnimalsAnswer = prompt('What type of animals does Krystian like? ');
 
-animalTypeArray[2] === 'horse';
-animalTypeArray[2];
-
-animalTypeArray[3] === 'bird';
-animalTypeArray[3];
-
-animalTypeArray[4] === 'fish';
-animalTypeArray[4];
-
-var likedAnimals = prompt('What type of animals does Krystian like?');
-
-if (likedAnimals === animalTypeArray[0] || likedAnimals === animalTypeArray[1] || likedAnimals === animalTypeArray[2]){
+  if (likedAnimalsAnswer === animalTypeArray[0] || likedAnimalsAnswer === animalTypeArray[1] || likedAnimalsAnswer === animalTypeArray[2]){
   //  console.log('Correctamundo');
-  alert('You are absolutely correct!');
+    alert('You are absolutely correct!');
+    break;
+  } else {
+    alert('Sorry! Wrong answer pal.');
+  }
+  //Q.7 ends
 }
-
+//Q.7 end with loop
 
 
 var introvertAnswer = prompt('Last question ' + usernameAnswer + '. Anyone who knows Krystian will know this one. Is Krystian an introvert (y/n)?');
