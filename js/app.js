@@ -53,9 +53,9 @@ for(var i=0; i<=3; i++){
   var threePets = '3';
 
   if (howManyPetsAnswer > threePets){
-    alert('You are aiming a bit too high my friend.');
+    alert('You are aiming a bit too high my friend. Try Again :)');
   } else if(howManyPetsAnswer < threePets){
-    alert('Add some more pets to the mix, you are coming up short my friend.');
+    alert('Add some more pets to the mix, you are coming up short my friend. Try Again :)');
   } else if(howManyPetsAnswer === threePets){
     alert('Have you met the wildlings or are you just great at guessing? Three was the right choice!');
     break;
@@ -66,11 +66,10 @@ for(var i=0; i<=3; i++){
 }
 // Q6 end w loop
 
- 
 // Question 7
 // Q. 7 Loop start
-for (var i=0; i<6; i++){
-// Q. 7 Start
+for (var answerIndex=0; answerIndex<6; answerIndex++){
+// Q. 7 Function Start
   var animalTypeArray = ['dog', 'cat', 'horse', 'bird', 'fish'];
 
   var likedAnimalsAnswer = prompt('What type of animals does Krystian like? ');
@@ -82,7 +81,7 @@ for (var i=0; i<6; i++){
   } else {
     alert('Sorry! Wrong answer pal.');
   }
-  //Q.7 ends
+  //Q.7 function ends
 }
 //Q.7 end with loop
 
