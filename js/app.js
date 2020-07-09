@@ -81,27 +81,35 @@ foodieQuestion();
 
 //Q5 Ends
 
-// Question 6 w loop
-for(var i=0; i<=3; i++){
-// Q6 start
-  var howManyPetsAnswer = prompt('How many pets does Krystian live with?');
-  console.log('howManyPetsAnswer : ' +howManyPetsAnswer);
+// Q6
 
-  var threePets = '3';
+function howManyPetsLoop(){
 
-  if (howManyPetsAnswer > threePets){
-    alert('You are aiming a bit too high my friend. Try Again :)');
-  } else if(howManyPetsAnswer < threePets){
-    alert('Add some more pets to the mix, you are coming up short my friend. Try Again :)');
-  } else if(howManyPetsAnswer === threePets){
-    alert('Have you met the wildlings or are you just great at guessing? Three was the right choice!');
-    break;
-  } else {
-    alert('All it took was a simple guess pal. Try again.');
+  // Question 6 w loop
+  for(var i=0; i<=3; i++){
+    // Q6 startContent
+    var howManyPetsAnswer = prompt('How many pets does Krystian live with?');
+    console.log('howManyPetsAnswer : ' +howManyPetsAnswer);
+
+    var threePets = '3';
+
+    if (howManyPetsAnswer > threePets){
+      alert('You are aiming a bit too high my friend. Try Again :)');
+    } else if(howManyPetsAnswer < threePets){
+      alert('Add some more pets to the mix, you are coming up short my friend. Try Again :)');
+    } else if(howManyPetsAnswer === threePets){
+      alert('Have you met the wildlings or are you just great at guessing? Three was the right choice!');
+      break;
+    } else {
+      alert('All it took was a simple guess pal. Try again.');
+    }
+    // Q6 endContent
   }
-  // Q6 end
-}
 // Q6 end w loop
+}
+howManyPetsLoop();
+
+//Q6 Ends
 
 // Question 7
 // Q. 7 Loop start
