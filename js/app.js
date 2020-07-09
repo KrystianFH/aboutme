@@ -65,14 +65,21 @@ shortyQuestion();
 
 //Q4 Ends
 
-var foodieAnswer = prompt('Is Krystian a foodie (y/n)?');
-// console.log('foodieAnswer : ' + foodieAnswer);
+//Q5
 
-if (foodieAnswer.toLowerCase() === 'y'){
-  alert('Maybe you truly do know Krystian.');
-} else {
-  alert('Do you enjoy making me angry human? Everyone loves food that was a giveaway.');
+function foodieQuestion(){
+  var foodieAnswer = prompt('Is Krystian a foodie (y/n)?');
+  // console.log('foodieAnswer : ' + foodieAnswer);
+
+  if (foodieAnswer.toLowerCase() === 'y'){
+    alert('Maybe you truly do know Krystian.');
+  } else {
+    alert('Do you enjoy making me angry human? Everyone loves food that was a giveaway.');
+  }
 }
+foodieQuestion();
+
+//Q5 Ends
 
 // Question 6 w loop
 for(var i=0; i<=3; i++){
