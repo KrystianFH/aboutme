@@ -15,19 +15,22 @@ function nameQuestion(){
 }
 nameQuestion();
 
-//var usernameAnswer = prompt('Why hello Human, what are you called?');
-// console.log('usernameAnswer : ' + usernameAnswer);
+//Q2 
 
-//alert('Really?!?! How odd. Well I suppose I will call you ' + usernameAnswer + ' too.');
+function ageGuessQuestion(){
+  var ageGuessAnswer = prompt('Is Krystian OLDER than 28 years of age (y/n)?');
+  // console.log('ageGuessAnswer : ' + ageGuessAnswer);
 
-var ageGuessAnswer = prompt('Is Krystian OLDER than 28 years of age (y/n)?');
-// console.log('ageGuessAnswer : ' + ageGuessAnswer);
-
-if (ageGuessAnswer.toLowerCase() === 'y'){
-  alert('Ding Dong! You got it right!');
-} else {
-  alert('Flattery will get you nowhere ' + usernameAnswer + '. WRONG!');
+  if (ageGuessAnswer.toLowerCase() === 'y'){
+    alert('Ding Dong! You got it right!');
+  } else {
+    alert('Flattery will get you nowhere ' + usernameAnswer + '. WRONG!');
+  }
 }
+ageGuessQuestion();
+//Q2 Ends
+
+// Q3
 
 
 var likeAnimalsAnswer = prompt('Does Krystian love animals (y/n)?');
