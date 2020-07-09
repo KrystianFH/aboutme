@@ -111,24 +111,32 @@ howManyPetsLoop();
 
 //Q6 Ends
 
-// Question 7
-// Q. 7 Loop start
-for (var answerIndex=0; answerIndex<6; answerIndex++){
-// Q. 7 Function Start
-  var animalTypeArray = ['dog', 'cat', 'horse', 'bird', 'fish'];
+//Q7
 
-  var likedAnimalsAnswer = prompt('What type of animals does Krystian like? ');
+function animalTypeLoop(){
 
-  if (likedAnimalsAnswer === animalTypeArray[0] || likedAnimalsAnswer === animalTypeArray[1] || likedAnimalsAnswer === animalTypeArray[2]){
-  //  console.log('Correctamundo');
-    alert('You are absolutely correct!');
-    break;
-  } else {
-    alert('Sorry! Wrong answer pal.');
+  // Question 7
+  // Q. 7 Loop start
+  for (var answerIndex=0; answerIndex<6; answerIndex++){
+  // Q. 7 Function Start
+    var animalTypeArray = ['dog', 'cat', 'horse', 'bird', 'fish'];
+
+    var likedAnimalsAnswer = prompt('What type of animals does Krystian like? ');
+
+    if (likedAnimalsAnswer === animalTypeArray[0] || likedAnimalsAnswer === animalTypeArray[1] || likedAnimalsAnswer === animalTypeArray[2]){
+    //  console.log('Correctamundo');
+      alert('You are absolutely correct!');
+      break;
+    } else {
+      alert('Sorry! Wrong answer pal.');
+    }
+    //Q.7 Content ends
   }
-  //Q.7 function ends
+  //Q.7 end with loop
 }
-//Q.7 end with loop
+animalTypeLoop();
+
+//Q7 Ends
 
 
 var introvertAnswer = prompt('Last question ' + usernameAnswer + '. Anyone who knows Krystian will know this one. Is Krystian an introvert (y/n)?');
