@@ -47,14 +47,15 @@ if (foodieAnswer.toLowerCase() === 'y'){
 // Question 6
 var howManyPetsAnswer = prompt('How many pets does Krystian live with?');
 console.log('howManyPetsAnswer : ' +howManyPetsAnswer);
-var i=0;
-// console.log('i :' +i);
-while (i<4, i++){
-  if (howManyPetsAnswer > 3){
+
+var threePets = 3;
+for(var i=0; i<=3; i++){
+
+  if (howManyPetsAnswer > threePets){
     alert('You are aiming a bit too high my friend.');
-  } else if(howManyPetsAnswer < 3){
+  } else if(howManyPetsAnswer < threePets){
     alert('Add some more pets to the mix, you are coming up short my friend.');
-  } else if(howManyPetsAnswer === 3){
+  } else if(howManyPetsAnswer === threePets){
     alert('Have you met the wildlings or are you just great at guessing? Three was the right choice!');
   } else {
     alert('All it took was a simple guess pal. Try again.');
