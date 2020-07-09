@@ -46,18 +46,24 @@ loveAnimalsQuestion();
 
 //Q3 End
 
+//Q4
 
-var shortyAnswer = prompt('Is Krystian what you humans think of as "tall" (y/n)?');
-// console.log('shortyAnswer : ' + shortyAnswer);
+function shortyQuestion(){
 
+  var shortyAnswer = prompt('Is Krystian what you humans think of as "tall" (y/n)?');
+  // console.log('shortyAnswer : ' + shortyAnswer);
 
-if (shortyAnswer.toLowerCase() === 'y'){
-  alert('You sure blew that one.');
-} else if(shortyAnswer.toLowerCase() === 'n'){
-  alert('She will never admit it, but does she really have to?');
-} else {
-  alert('I shake my fist at you! That was never an option human.');
+  if (shortyAnswer.toLowerCase() === 'y'){
+    alert('You sure blew that one.');
+  } else if(shortyAnswer.toLowerCase() === 'n'){
+    alert('She will never admit it, but does she really have to?');
+  } else {
+    alert('I shake my fist at you! That was never an option human.');
+  }
 }
+shortyQuestion();
+
+//Q4 Ends
 
 var foodieAnswer = prompt('Is Krystian a foodie (y/n)?');
 // console.log('foodieAnswer : ' + foodieAnswer);
